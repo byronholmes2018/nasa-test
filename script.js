@@ -13,6 +13,7 @@ const getAsteroid = async () => {
   console.log(data);
 };
 
+console.log('running?');
 alert('hi');
 getAsteroid()
   .then((data) => console.log('data', data))
